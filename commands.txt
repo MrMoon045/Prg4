@@ -1,7 +1,6 @@
 * Turn on docker desktop
 * minikube start
 * minikube status
-*  docker build -t shashanknaik45/app1-k8s:latest .
 
 * docker build -t shashanknaik45/app12-k8s:latest .
 
