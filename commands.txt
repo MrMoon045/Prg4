@@ -1,0 +1,20 @@
+* Turn on docker desktop
+* minikube start
+* minikube status
+*  docker build -t shashanknaik45/app1-k8s:latest .
+
+* docker build -t shashanknaik45/app12-k8s:latest .
+
+* docker images 
+* docker push shashanknaik45/app12-k8s:latest
+
+*  kubectl apply -f deployment.yaml
+* kubectl apply -f service.yaml
+* kubectl get pods 
+
+* kubectl scale deployment/hw-deployment --replicas=3
+* kubectl get pods
+* kubectl get deployment
+
+* kubectl port-forward svc/hello-world 5000:5000
+ (goto localhost:5000)
