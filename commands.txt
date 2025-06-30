@@ -2,10 +2,10 @@
 * minikube start
 * minikube status
 
-* docker build -t shashanknaik45/app12-k8s:latest .
+* docker build -t {DockerUserId}/app12-k8s:latest .
 
 * docker images 
-* docker push shashanknaik45/app12-k8s:latest
+* docker push {DockerUserId}/app12-k8s:latest
 
 *  kubectl apply -f deployment.yaml
 * kubectl apply -f service.yaml
